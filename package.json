@@ -1,0 +1,37 @@
+{
+  "name": "ai-based-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaahzad/Meal_APP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Shaahzad/Meal_APP/issues"
+  },
+  "homepage": "https://github.com/Shaahzad/Meal_APP#readme",
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.22.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "openai": "^6.45.0",
+    "pg": "^8.22.0",
+    "readline-sync": "^1.4.10",
+    "studio": "^0.13.5"
+  }
+}
